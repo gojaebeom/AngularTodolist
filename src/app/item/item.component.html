@@ -1,0 +1,18 @@
+<div>
+    <label>KEY
+        <input [(ngModel)]="item.key" type="text" placeholder="key">
+    </label>
+    <label>ID
+        <input [(ngModel)]="item.id" type="text" placeholder="ID">
+    </label>
+    <br>
+    <label>Name
+        <input [(ngModel)]="item.name" type="text" placeholder="name">
+    </label>
+    <br>
+    <label>Available
+        <input [(ngModel)]="item.available" type="checkbox" placeholder="availalbe">
+    </label>
+</div>
+<button (click)="saveItem()">Save</button>
+<button (click)="deleteItem()">Delete</button>
